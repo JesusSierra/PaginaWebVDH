@@ -13,3 +13,17 @@
 	font-size: inherit;
 }
 
+#rectangle{
+  position: relative;
+  width:1500px;
+  height:100px;
+  background: #eeeeee;
+  z-index: 1;
+}
+#rectangle2{
+  position: relative;
+  width:1500px;
+  height:100px;
+  background: red;
+  z-index: 2;
+}
