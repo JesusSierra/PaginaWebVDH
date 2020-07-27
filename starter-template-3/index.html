@@ -52,26 +52,47 @@
 </nav>
 </div>
   <!--Logo de la página-->
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <div class="row center images-selector">
-        <input type="radio" id="logo" name="image" value="logo">
-        <label for="logo" class="img-card img1"></label>
-      </div>
-      <br><br>
-      <div class="row center text">
-        <p style="font-size: 30px; font-family: futura" >INSERTAR FRASE DEL GRUPO </p>
-          <p>
-          <span style="font-size: 30px; font-family: futura" class="word wisteria">BORREGOS</span>
-          <span style="font-size: 30px; font-family: futura" class="word belize">HUMANOS</span>
-          <span style="font-size: 30px; font-family: futura" class="word pomegranate">VANGUARDIA</span>
-          <span style="font-size: 30px; font-family: futura" class="word midnight">HUMANOS</span>
-          </p>
-      </div>
-    </div>
+  
+    <div class="carousel">
+      <input type="radio" id="carousel-1" name="carousel[]" checked>
+      <input type="radio" id="carousel-2" name="carousel[]">
+       <input type="radio" id="carousel-3" name="carousel[]">
+      <input type="radio" id="carousel-4" name="carousel[]">
+      <input type="radio" id="carousel-5" name="carousel[]">
+      <ul class="carousel__items">
+        <li class="carousel__item"><img src="london-black-and-white.jpg" alt=""></li>
+        <li class="carousel__item"><img src="manhattan-bw.jpg" alt=""></li>
+        <li class="carousel__item"><img src="new-york-fondos-pantalla-hd-29.jpg" alt=""></li>
+        <li class="carousel__item"><img src="99e1d8461256c477e4eb4a1e00c32798.jpg" alt=""></li>
+        <li class="carousel__item"><img src="3-2013-city-of-london-skyline-david-french.jpg" alt=""></li>
+      </ul>
+       <div class="carousel__prev">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <label for="carousel-4"></label>
+         <label for="carousel-5"></label>
+       </div>
+       <div class="carousel__next">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <label for="carousel-4"></label>
+         <label for="carousel-5"></label>
+       </div>
+       <div class="carousel__nav">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <label for="carousel-4"></label>
+         <label for="carousel-5"></label>
+       </div>
+     </div>
+
+  <div class="container">
+    <div class="wrapper"><h1>sxrdev team</h1></div>
   </div>
 
-  <br><br>
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
@@ -202,41 +223,48 @@
       </div>
   
 <!-- Footer -->
-  <footer class="page-footer orange">
+<footer class="page-footer grey lighten-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l2 s12">
+        <img src="Escudo(fondotransparente).png" width="80px" height="100px">
+      </div>
+
+      <div class="col l7 s12">
+        <ul>
+          <li><a class="black-text" href="#!">Vanguardia Derechos Humanos</a></li>
+          <li><a class="black-text" href="#!">Calle Sexta #3012, Col. Santa</a></li>
+          <li><a class="black-text" href="#!">Rosa Chihuahua, México</a></li>
+          <li><a class="black-text" href="#!">C.P. 31050</a></li>
+        </ul>
+      </div>
+
+      <div class="col l1 s12">
+        <br>
+        <br>
+        <img src="Facebook.png" width="50px" height="50px">
+      </div>
+
+      <div class="col l1 s10">
+        <br>
+        <br>
+        <img src="Instagram.png" width="50px" height="50px">
+      </div>
+
+      <div class="col l1 s12">
+        <br>
+        <br>
+        <img src="Twitter.png" width="50px" height="50px">
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
+    Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
+  </div>
+</footer>
 
 
   <!--  Scripts-->
